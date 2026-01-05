@@ -1,1 +1,4 @@
 project_id = "edjxrgxijxnkutrpqrrb"
+
+[functions.vinted-api]
+verify_jwt = false

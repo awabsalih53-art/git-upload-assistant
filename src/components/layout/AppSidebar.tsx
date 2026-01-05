@@ -6,7 +6,8 @@ import {
   RotateCcw, 
   CheckSquare, 
   Settings,
-  Store
+  Store,
+  Search
 } from "lucide-react";
 import { NavLink, useLocation } from "react-router-dom";
 import {
@@ -23,6 +24,7 @@ import {
 
 const menuItems = [
   { title: "Dashboard", url: "/", icon: LayoutDashboard },
+  { title: "Vinted Search", url: "/vinted", icon: Search },
   { title: "Inventory", url: "/inventory", icon: Package },
   { title: "Sales", url: "/sales", icon: PoundSterling },
   { title: "Shipping", url: "/shipping", icon: Truck },

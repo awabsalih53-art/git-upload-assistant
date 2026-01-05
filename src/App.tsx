@@ -15,6 +15,7 @@ import Returns from "./pages/Returns";
 import ReturnsForm from "./pages/ReturnsForm";
 import Tasks from "./pages/Tasks";
 import Settings from "./pages/Settings";
+import VintedSearch from "./pages/VintedSearch";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -42,6 +43,7 @@ const App = () => (
             <Route path="/returns/:id" element={<ReturnsForm />} />
             <Route path="/tasks" element={<Tasks />} />
             <Route path="/settings" element={<Settings />} />
+            <Route path="/vinted" element={<VintedSearch />} />
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
